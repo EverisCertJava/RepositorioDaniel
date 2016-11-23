@@ -57,8 +57,8 @@ public class PruebasPrincipales {
 	// Todos los métodos de las interfaces son implicitamente publicos y abstractos
 	// Los métodos de las interfaces no deben ser estáticos
 	
-	
-	
+	// Todas las variables  definidads en una interface deben ser publicas, estaticas y finales, las interfaces solo pueden declarar constantes
+	//Las inter
 	
 	/*===============================================================================================================*/
 		

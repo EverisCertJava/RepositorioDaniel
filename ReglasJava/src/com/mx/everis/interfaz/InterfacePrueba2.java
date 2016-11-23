@@ -1,11 +1,14 @@
 package com.mx.everis.interfaz;
 
-public interface InterfacePrueba {
+// Aqui se está heredando de otras interfaces, y no extiende de otras clases
+public interface InterfacePrueba2 extends InterfacePrueba, InterfacePrueba3/*, clasePrueba*/ {
+	
+	
 	
 	
 	//Una interfaz puede extender una o más interfaces
 	
-	String metodoPrueba();
+	String metodoPrueba2();
 	// solo se pueden declarar constantes finales y estáticas
 	public static final String variable="constante";
 	// los métodos de la interfaz no deben ser estáticos
@@ -13,7 +16,4 @@ public interface InterfacePrueba {
 	//
 //	String static metodoPrueba2();    <--- Mal
 
-	
-	
-	
 }
