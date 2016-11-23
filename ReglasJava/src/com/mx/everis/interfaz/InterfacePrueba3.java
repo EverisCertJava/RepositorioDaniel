@@ -1,6 +1,7 @@
 package com.mx.everis.interfaz;
 
-public interface InterfacePrueba3 {
+// Una Interfaz no puede implementar una clase
+public interface InterfacePrueba3 /*implements PruebasPrincipales      <--------  Wrong X__X*/{
 	
 	
 	//Una interfaz puede extender una o más interfaces
