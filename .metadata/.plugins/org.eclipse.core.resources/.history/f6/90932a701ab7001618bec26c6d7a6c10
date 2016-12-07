@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package mc.com.everis.tallerjava.enums;
+
+/**
+ * @author everis
+ *
+ */
+public enum Precios {
+
+}

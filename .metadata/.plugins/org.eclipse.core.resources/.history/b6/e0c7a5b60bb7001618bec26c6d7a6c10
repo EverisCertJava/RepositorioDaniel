@@ -1,0 +1,15 @@
+package mx.com.everis.certificacion.factory;
+
+import mx.com.everis.certificacion.interfaces.Shape;
+
+public class ShapeFactory {
+	
+	
+	protected Shape getShape(){
+		
+		Shape shapeRespuesta = null;
+		
+		return shapeRespuesta;	
+	}
+
+}

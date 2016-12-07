@@ -1,0 +1,64 @@
+package mx.com.everis.certificacion.factory;
+
+
+import mx.com.everis.certificacion.figuras.Circle;
+import mx.com.everis.certificacion.figuras.Rectangle;
+import mx.com.everis.certificacion.figuras.Square;
+import mx.com.everis.certificacion.interfaces.Shape;
+
+public class ShapeFactory{
+	
+	
+	 public Shape getShape(String shape){
+		 
+		 // 
+		
+		Shape shapeRespuesta = null;
+		
+		
+		
+		if (shape.equalsIgnoreCase("Circle")){
+			
+			
+			
+			return new Circle();
+			
+		} else  if (shape.equalsIgnoreCase("Rectangle")){
+						
+			return new Rectangle();
+			
+		} if (shape.equalsIgnoreCase("Square")){
+					
+			return new Square();
+			
+		}
+		
+		//Circle circle = new Circle();
+		//Circle circle = new Circle();
+		//Circle circle = new Circle();
+		
+		return shapeRespuesta;	
+	}
+	
+	
+	
+	/**
+	 * 
+	 * No es factible por que en caso de haber nuevos requerimientos de figuras se tendrpia que replicar el codigo
+	 * 
+	Circle getShapeCircle(){
+		
+		return new Circle();
+	}
+	
+	Rectangle getShapeRectangle(){
+		
+		return new Rectangle();
+	}
+
+	Square getShapeSquare(){
+	
+	return new Square();
+	}
+**/
+}

@@ -1,0 +1,22 @@
+package mx.com.everis.certificacion.test;
+
+import mx.com.everis.certificacion.factory.ShapeFactory;
+import mx.com.everis.certificacion.interfaces.Shape;
+
+public class FactoryPaternDemo{
+
+	public static void main(String[] args) {
+		
+	// La creación de objetos es a tráves de una fábrica
+		
+	ShapeFactory factory = new ShapeFactory();
+		
+	Shape circle = factory.getShape("Circle");
+	Shape rectangle = factory.getShape("Rectangle");
+	Shape square = factory.getShape("Square");
+	
+)
+		
+	}
+
+}

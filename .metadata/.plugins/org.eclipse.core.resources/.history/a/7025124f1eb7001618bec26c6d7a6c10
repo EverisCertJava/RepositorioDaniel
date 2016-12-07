@@ -1,0 +1,39 @@
+package mc.com.everis.tallerjava.enums;
+
+import java.util.Scanner;
+
+public class Testing {
+
+	public static void main(String[] args) {
+		
+		//System.out.println(TamañoCafe.CHICO.getValue());
+		//System.out.println(TamañoCafe.MEDIANO.getValue());
+		//System.out.println(TamañoCafe.GRANDE.getValue());
+		String tamaño="";
+		
+		System.out.println("Ingrese el tamaño del café : ");		
+		Scanner entrada = new Scanner(System.in);
+		tamaño = entrada.next();
+
+		System.out.println("Calculando...");	
+		if (tamaño.equalsIgnoreCase(TamañoCafe.CHICO.getValue())){
+			
+			System.out.println("El café "+ TamañoCafe.CHICO.getValue()+" cuesta 10 $");
+			
+		} else if (tamaño.equalsIgnoreCase(TamañoCafe.MEDIANO.getValue())){
+			
+			System.out.println("El café "+ TamañoCafe.MEDIANO.getValue()+" cuesta 15 $");
+			
+		} if (tamaño.equalsIgnoreCase(TamañoCafe.GRANDE.getValue())){
+			
+			System.out.println("El café "+ TamañoCafe.GRANDE.getValue()+" cuesta 20 $");
+		} else {
+			
+			System.out.println("No existe ese tamaño");
+		} 
+		
+		
+
+	}
+
+}

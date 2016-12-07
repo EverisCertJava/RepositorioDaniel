@@ -1,0 +1,13 @@
+package mc.com.everis.tallerjava.enums;
+
+public class Testing {
+
+	public static void main(String[] args) {
+		
+		System.out.println(TamañoCafe.CHICO);
+		System.out.println(TamañoCafe.MEDIANO);
+		System.out.println(TamañoCafe.GRANDE);
+
+	}
+
+}

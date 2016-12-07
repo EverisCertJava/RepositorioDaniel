@@ -1,0 +1,13 @@
+package mx.com.everis.certificacion.figuras;
+
+import mx.com.everis.certificacion.interfaces.Shape;
+
+public class Rectangle implements Shape{
+
+	@Override
+	public void draw() {
+		
+		System.out.println("Tengo 4 lados, dos mas grandes que los otros dos");
+	}
+
+}

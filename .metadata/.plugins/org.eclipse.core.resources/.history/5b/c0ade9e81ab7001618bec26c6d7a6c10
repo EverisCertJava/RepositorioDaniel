@@ -1,0 +1,24 @@
+package mc.com.everis.tallerjava.enums;
+
+public enum TamañoCafe {
+
+	/* */
+	CHICO("chico01"), 
+	/* */
+	MEDIANO("mediano01"),
+	/* */
+	GRANDE("grande01");
+	
+	private String mensaje;
+	
+	private TamañoCafe(String tamaño){
+		this.mensaje=tamaño;
+	}
+	
+	String getValue(){
+		
+		return this.mensaje;
+	}
+
+	
+}

@@ -1,0 +1,18 @@
+package mx.com.everis.certificacion.test;
+
+import mx.com.everis.certificacion.factory.ShapeFactory;
+import mx.com.everis.certificacion.interfaces.Shape;
+
+public class FactoryPaternDemo extends ShapeFactory{
+
+	public static void main(String[] args) {
+		
+	
+		
+	ShapeFactory shapefactory=new ShapeFactory();
+		
+	shapefactory.getShape("Circle");
+		
+	}
+
+}

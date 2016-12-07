@@ -7,7 +7,10 @@ import  static com.mx.everis.claseestatica.ClaseEstatica.nombre;
 
 public class PruebasPrincipales {
 
-	public static void main(String[] args) {
+	
+	
+// Probando variables var args, como parametros de  static main	
+	public static void main(String... args) {
 	
 // 1) Las variables solo pueden definirse usando letras _ ó $ al principio o en cualquier parte dela variable
 		int $variable; 

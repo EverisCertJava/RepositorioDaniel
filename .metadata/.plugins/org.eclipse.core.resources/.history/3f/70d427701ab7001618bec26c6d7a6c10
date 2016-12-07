@@ -1,0 +1,5 @@
+package mc.com.everis.tallerjava.enums;
+
+public class TamañoCafe {
+
+}

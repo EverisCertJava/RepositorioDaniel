@@ -1,0 +1,16 @@
+package mx.com.everis.certificacion.test;
+
+import mx.com.everis.certificacion.factory.ShapeFactory;
+
+public class FactoryPaternDemo extends ShapeFactory{
+
+	public static void main(String[] args) {
+		
+		
+	//	ShapeFactory shapefactory=new ShapeFactory();
+		
+	//	getShape();
+		
+	}
+
+}
